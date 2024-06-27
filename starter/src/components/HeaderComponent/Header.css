@@ -1,0 +1,43 @@
+.logoImg a img {
+  display: block;
+  width: 100px;
+  height: 70px;
+  object-fit: contain;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navItem:not(last-child) {
+  margin-right: 15px;
+}
+
+.navItem a {
+  color: rgb(128, 128, 128);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.navItem a:hover {
+  color: black;
+}
+
+.navItem a.active {
+  color: black;
+}
+
+.icons a:not(:last-child) {
+  margin-right: 15px;
+}
+
+.icons a i {
+  color: rgb(128, 128, 128);
+}
+
+.icons a i:hover {
+  color: black;
+}

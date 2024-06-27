@@ -1,0 +1,24 @@
+.filterNavigator {
+  position: absolute;
+  top: 13%;
+  left: 0;
+  width: 250px;
+  height: 100vh;
+  padding-top: 15px;
+  padding-left: 17px;
+}
+.filterItems:not(:last-child) {
+  margin-bottom: 10px;
+}
+.badge {
+  --bs-badge-font-weight: normal;
+  background-color: rgba(65, 64, 64, 0.753);
+}
+
+.filterItems.activeFilter p {
+  color: rgb(255, 200, 0);
+}
+
+.filterItems.activeFilter span {
+  background-color: rgb(255, 200, 0);
+}
