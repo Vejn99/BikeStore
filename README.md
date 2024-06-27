@@ -26,11 +26,6 @@ npm install
 npm run start
 ```
 
-5. Run json-server for mock API:
-
-```
-npm run server
-```
 
 ## Browse your application on:
 http://localhost:3011/
